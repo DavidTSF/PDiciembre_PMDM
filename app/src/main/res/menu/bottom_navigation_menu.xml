@@ -3,7 +3,8 @@
         android:id="@+id/inventory"
         android:enabled="true"
         android:icon="@android:drawable/ic_menu_gallery"
-        android:title="Inventory"/>
+        android:title="Inventory"
+        />
     <item
         android:id="@+id/home"
         android:enabled="true"

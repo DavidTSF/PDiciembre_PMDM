@@ -1,4 +1,4 @@
-package dev.davveg.pdiciembre_pmdm;
+package dev.davveg.pdiciembre_pmdm.fragments;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import dev.davveg.pdiciembre_pmdm.R;
 
 
 public class MainFragment extends Fragment {

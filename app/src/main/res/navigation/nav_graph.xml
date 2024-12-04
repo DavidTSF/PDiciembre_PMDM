@@ -7,20 +7,20 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="dev.davveg.pdiciembre_pmdm.MainFragment"
+        android:name="dev.davveg.pdiciembre_pmdm.fragments.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
 
     </fragment>
     <fragment
         android:id="@+id/inventoryFragment"
-        android:name="dev.davveg.pdiciembre_pmdm.InventoryFragment"
+        android:name="dev.davveg.pdiciembre_pmdm.fragments.InventoryFragment"
         android:label="fragment_inventory"
         tools:layout="@layout/fragment_inventory" >
     </fragment>
     <fragment
         android:id="@+id/characterFragment"
-        android:name="dev.davveg.pdiciembre_pmdm.CharacterFragment"
+        android:name="dev.davveg.pdiciembre_pmdm.fragments.CharacterFragment"
         android:label="fragment_character"
         tools:layout="@layout/fragment_character" />
 </navigation>

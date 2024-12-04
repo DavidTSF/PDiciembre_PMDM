@@ -1,4 +1,4 @@
-package dev.davveg.pdiciembre_pmdm.model;
+package dev.davveg.pdiciembre_pmdm.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

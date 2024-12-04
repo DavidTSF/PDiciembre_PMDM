@@ -1,4 +1,4 @@
-package dev.davveg.pdiciembre_pmdm.model;
+package dev.davveg.pdiciembre_pmdm.models;
 
 public class Weapon implements Item {
     public int id_weapon;
@@ -73,4 +73,9 @@ public class Weapon implements Item {
     public ItemType getItemType() {
         return ItemType.WEAPON;
     }
+
+    public static Weapon parseWeapon(Item item) {
+        return (Weapon) item;
+    }
+
 }
